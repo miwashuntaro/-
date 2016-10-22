@@ -1,0 +1,85 @@
+div#content{
+	text-align:left;
+}
+div#content h1{
+	float:left;
+	margin:0 0 0 30px;
+	font-size:3.5em;
+}
+div#content p.navi{
+	margin:20px 0 0 300px;
+	font-size:1.5em;
+}
+div#content p.clear{
+	clear:both;
+}
+div#content p.goto_top{
+	margin:0 10px 0 0;
+	text-align:right;
+}
+div#content h2{
+	margin:20px 0 20px 30px;
+	font-size:2.5em;
+}
+div#content div.cd_left{
+	float:left;
+	width:350px;
+	hieght:100px;
+	text-align:center;
+	margin:20px 0 0 70px;
+}
+div#content div.cd_left p.gazou{
+	float:left;
+	width:100px;
+	hieght:100px;
+}
+div#content div.cd_left div.moji{
+	width:250px;
+	hieght:100px;
+	text-align:left;
+	padding:10px 0 0 130px;
+}
+div#content div.cd_left div.moji h3{
+	font-size:1.3em;
+}
+div#content div.cd_left div.moji p{
+	font-size:1.0em;
+}
+div#content div.cd_left div.moji h3.dvd{
+	font-size:0.9em;
+}
+div#content div.cd_left div.moji p.dvd{
+	font-size:0.9em;
+}
+
+div#content div.cd_right{
+	float:left;
+	width:350px;
+	hieght:100px;
+	text-align:center;
+	margin:20px 0 0;
+	
+}
+div#content div.cd_right p.gazou{
+	float:left;
+	width:100px;
+	hieght:100px;
+}
+div#content div.cd_right div.moji{
+	width:250px;
+	hieght:100px;
+	text-align:left;
+	padding:10px 0 0 130px;
+}
+div#content div.cd_right div.moji h3{
+	font-size:1.3em;
+}
+div#content div.cd_right div.moji p{
+	font-size:1.0em;
+}
+div#content div.cd_right div.moji h3.dvd{
+	font-size:0.9em;
+}
+div#content div.cd_right div.moji p.dvd{
+	font-size:0.9em;
+}

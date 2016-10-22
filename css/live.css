@@ -1,0 +1,138 @@
+/*-------     ブラウザスキルのリセット      ----------*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color:#000000;
+	/*line-height:1em;*/
+	background-color:#000000;
+	/*IE7以前のブラウザで中央ぞろえにするための記述*/
+	text-align:center;
+	
+}
+a:link{
+	color:#ff8000;
+	text-decoration:none;
+}
+a:visited{
+	color:#ff8000;
+}
+a:hover{
+	color:#005500;
+	text-decoration:underline;
+}
+a:active{
+	color:#ff0000;
+}
+a img{
+	border:none;
+}
+/*-------     headerのスタイル      ----------*/
+div#header{
+	background-color:#ff0000;
+	width:100%;
+	height:120px;
+}
+div#header h1{
+	font-size:4.0em;
+	color:#ffffff;
+	line-height:120px;
+	text-align:center;
+}
+/*-------      naviのスタイル       ----------*/
+div#navi{
+	width:980px;
+	background-color:#ffffff;
+	margin:0px auto;
+}
+div#navi ul{
+	width:980px;
+	height:40px;
+	margin:0 0 0 0;
+	list-style-type:none;
+}
+div#navi ul li{
+	width:196px;
+	height:40px;
+	float:left;
+}
+div#navi ul li a{
+	display:block;
+	width:196px;
+	hieght:40px;
+	background-repeat:no-repeat;
+	
+}
+div#navi ul li#navi0 a{
+	background-image:url("../img/botan/live_botan/top.gif");
+}
+div#navi ul li#navi0 a:hover{
+	background-image:url("../img/botan/live_botan/top_hover.gif");
+}
+div#navi ul li#navi1 a{
+	background-image:url("../img/botan/live_botan/news.gif");
+}
+div#navi ul li#navi1 a:hover{
+	background-image:url("../img/botan/live_botan/news_hover.gif");
+}
+div#navi ul li#navi2 a{
+	background-image:url("../img/botan/live_botan/profile.gif");
+}
+div#navi ul li#navi2 a:hover{
+	background-image:url("../img/botan/live_botan/profile_hover.gif");
+}
+div#navi ul li#navi3 a{
+	background-image:url("../img/botan/live_botan/music.gif");
+}
+div#navi ul li#navi3 a:hover{
+	background-image:url("../img/botan/live_botan/music_hover.gif");
+}
+div#navi ul li#navi4 a{
+	background-image:url("../img/botan/live_botan/goods.gif");
+}
+div#navi ul li#navi4 a:hover{
+	background-image:url("../img/botan/live_botan/goods_hover.gif");
+}
+
+/*-------    contentのスタイル      ----------*/
+div#content{
+	width:980px;
+	background-color:#000000;
+	color:#ffffff;
+	margin:0px auto;
+	clear:both;
+}
+div#content p#header{
+	width:980px;
+	height:563px;
+	text-align:center;
+}
+div#content div#table{
+	border-collaspae:collaspae;
+	margin:20px auto 10px auto;
+	border:1px solid #ffffff;
+}
+div#content div#table tr#title{
+	background-color:#696969;
+	color:#ffffff;
+}
+div#content div#table tr.naiyou{
+	background-color:#ffffff;
+	color:#000000;
+	font-size:0.8em;
+}
+
+/*-------     footerのスタイル      ----------*/
+div#footer{
+	width:980px;
+	background-color:#000000;
+	margin:0px auto;
+	
+}
+div#footer div#footer_in{
+	padding:5px 10px;
+	font-size:0.8em;
+	text-align:right;
+	color:#ffffff;
+}

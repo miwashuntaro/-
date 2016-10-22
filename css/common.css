@@ -1,0 +1,121 @@
+/*-------     ブラウザスキルのリセット      ----------*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color:#000000;
+	/*line-height:1em;*/
+	background-image:url("../img/back.jpg");
+	/*IE7以前のブラウザで中央ぞろえにするための記述*/
+	text-align:center;
+	
+}
+a:link{
+	color:#ff8000;
+	text-decoration:none;
+}
+a:visited{
+	color:#ff8000;
+}
+a:hover{
+	color:#ffffff;
+	text-decoration:underline;
+}
+a:active{
+	color:#ff0000;
+}
+a img{
+	border:none;
+}
+/*-------     headerのスタイル      ----------*/
+div#header{
+	width:800px;
+	background-color:#000000;
+	margin:0px auto;
+}
+/*-------      naviのスタイル       ----------*/
+div#navi{
+	width:800px;
+	background-color:#000000;
+	margin:0px auto;
+}
+div#navi ul{
+	width:800px;
+	height:40px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	list-style-type:none;
+}
+div#navi ul li{
+	width:160px;
+	height:40px;
+	float:left;
+}
+div#navi ul li a{
+	text-decoration:none;
+	display:block;
+	width:160px;
+	hieght:40px;
+	background-repeat:no-repeat;
+}
+div#navi ul li#navi0 a{
+	background-image:url("../img/botan/top.gif");
+}
+div#navi ul li#navi0 a:hover{
+	background-image:url("../img/botan/top_hover.gif");
+}
+div#navi ul li#navi1 a{
+	background-image:url("../img/botan/news.gif");
+}
+div#navi ul li#navi1 a:hover{
+	background-image:url("../img/botan/news_hover.gif");
+}
+div#navi ul li#navi2 a{
+	background-image:url("../img/botan/profile.gif");
+}
+div#navi ul li#navi2 a:hover{
+	background-image:url("../img/botan/profile_hover.gif");
+}
+div#navi ul li#navi3 a{
+	background-image:url("../img/botan/music.gif");
+}
+div#navi ul li#navi3 a:hover{
+	background-image:url("../img/botan/music_hover.gif");
+}
+div#navi ul li#navi4 a{
+	background-image:url("../img/botan/goods.gif");
+}
+div#navi ul li#navi4 a:hover{
+	background-image:url("../img/botan/goods_hover.gif");
+}
+div#navi ul li#navi5 a{
+	background-image:url("../img/botan/live.gif");
+}
+div#navi ul li#navi5 a:hover{
+	background-image:url("../img/botan/live_hover.gif");
+}
+
+/*-------    contentのスタイル      ----------*/
+div#content{
+	width:800px;
+	background-color:#000000;
+	color:#ffffff;
+	margin:0px auto;
+	clear:both;
+}
+
+
+/*-------     footerのスタイル      ----------*/
+div#footer{
+	width:800px;
+	background-color:#000000;
+	margin:0px auto;
+	
+}
+div#footer div#footer_in{
+	padding:5px 10px;
+	font-size:0.8em;
+	text-align:right;
+	color:#ffffff;
+}

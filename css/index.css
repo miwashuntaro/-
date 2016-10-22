@@ -1,0 +1,25 @@
+div#content{
+	text-align:left;
+}
+div#content div#new_infomation{
+	float:right;
+	margin:0 25px 0 0;
+	height:200px;
+	width:350px;
+} 
+div#content div#new_infomation div.gazou{
+	padding:15px 0 0;
+} 
+div#content div#top_news{
+	padding:10px 0 0;
+	height:250px;
+	width:400px;
+	overflow-y:scroll;
+	scrollbar-base-color:#a9a9a9;
+}
+div#content div#top_news p{
+	font-size:1.0em;
+}  
+div#content div#top_news p span{
+	margin:85px;
+}

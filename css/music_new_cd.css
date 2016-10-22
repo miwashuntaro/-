@@ -1,0 +1,33 @@
+div#content{
+	text-align:left;
+}
+div#content h1{
+	padding:0 0 20px 100px;
+	font-size:2.5em;
+}
+div#content p.moji{
+	padding:0 0 0 140px;
+}
+div#content p.gazou{
+	text-align:center;
+}
+div#content h2{
+	padding:10px 0 10px 130px;
+	font-size:1.8em;
+}
+div#content div#table{
+	padding:0 0 0 180px;
+}
+div#content div#table th{
+	width:450px;
+	text-align:left;
+}
+div#content div#table tr{
+	height:25px;
+}
+div#content div#table tr.kisuu{
+	background-color:#2f4f4f;
+}
+div#content div#table tr.guusuu{
+	background-color:#000000;
+}
